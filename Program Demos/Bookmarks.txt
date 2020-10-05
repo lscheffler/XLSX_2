@@ -1,0 +1,171 @@
+﻿Overview; 1
+Methods / Events / Properties Summary; 3
+Defined Numeric Formatting; 9
+Custom Defined Numeric Formatting; 10
+Cell Styles; 13
+SpreadSheet Headers/Footers; 13
+Properties; 16
+Events; 19
+Methods – Managing Workbooks; 21
+	CreateWorkbook; 21
+	DeleteAllWorkbooks; 21
+	DeleteWorkbook; 21
+	GetNumberOfSheets; 22
+	GetWorkbook; 22
+	GetWorkbookFileName; 22
+	OpenCreatedXlsxFile; 23
+	OpenXlsxWorkbook; 23
+	OpenXlsxWorkbookSheet; 23
+	SaveWorkbook; 24
+	SaveWorkbookAs; 24
+	SetWorkbookProtection; 24
+Methods – Managing Sheets; 25
+	AddAutoFilter; 25
+	AddColumnFilter; 25
+	AddGroupByColumn; 26
+	AddGroupByRow; 26
+	AddHyperLinkFile; 26
+	AddHyperLinkSheet; 27
+	AddImage; 27
+	AddSheet; 28
+	ClearAutoFilter; 28
+	DeleteImage; 29
+	DeleteHyperLink; 29
+	DeleteSheet; 29
+	GetColumnWidth; 30
+	GetLastColumnInRow; 30
+	GetLastRowNumber; 31
+	GetMaxColumnNumber; 31
+	GetRowMaxColumn; 31
+	GetSheetIndex; 31
+	GetSheetName; 32
+	GetSheetProtection; 32
+	GetWorkbookSheets; 33
+	InsertCell; 33
+	InsertColumn; 34
+	InsertRow; 34
+	RenameSheet; 35
+	SetDisplayGridLines; 35
+	SetSheetGroupSettings; 35
+	SetSheetProtection; 36
+	SetSheetVisibility; 36
+	SetTabColor; 36
+	UnGroupByColumn; 37
+	UnGroupByRow; 37
+Methods – Assigning Cell Values; 38
+	ClearCellValue; 38
+	SetCellFormula; 38
+	SetCellValue; 39
+Methods – Returning Cell Values; 40
+	GetCellDataType; 40
+	GetCellFormula; 40
+	GetCellValue; 40
+	GetSheetRowValues; 41
+	IsCellFormula; 41
+Methods – Style Formatting; 42
+	AddStyleBorders; 42
+	AddStyleFill; 43
+	AddStyleFont; 43
+	AddStyleHorizAlignment; 44
+	AddStyleIndent; 44
+	AddStyleNumericFormat; 44
+	AddStyleProtection; 45
+	AddStyleTextRotation; 46
+	AddStyleVertAlignment; 46
+	AddStyleWordWrap; 46
+	CreateFormatStyle; 47
+	CopyStyle; 47
+	GetCellStyle; 47
+	SetCellStyle; 47
+	SetCellStyleRange; 48
+Methods – Returning Cell Formatting; 49
+	GetCellAlignment; 49
+	GetCellBorders; 49
+	GetCellFill; 50
+	GetCellFont; 51
+	GetCellIndent; 51
+	GetCellTextRotation; 52
+	GetCellWordWrap; 52
+Methods – Assigning Cell Formatting; 53
+	AddIndexColor; 53
+	AddMruColor; 53
+	CellFormatPainter; 53
+	MergeCells; 54
+	SetCellAlignment; 54
+	SetCellBorder; 55
+	SetCellBorderEx; 56
+	SetCellBorderRange; 57
+	SetCellFill; 58
+	SetCellFillRange; 58
+	SetCellFont; 59
+	SetCellFontRange; 60
+	SetCellIndent; 60
+	SetCellNumberDecimals; 61
+	SetCellNumberFormat; 61
+	SetCellNumberFormatRange; 62
+	SetCellTextRotation; 63
+	SetCellWordWrap; 63
+	SetCellWordWrapRange; 64
+	UnMergedCells; 64
+Methods – In-Line Text Formatting; 65
+	AddInLineFontObject; 65
+	CreateInLineFormatText; 66
+	GetInLineFormatText; 66
+	SetCellInLineFormatText; 67
+Methods – Numeric Cell Formats; 68
+	AddCustomNumericFormat; 68
+	AddNumericFormat; 68
+	GetCellNumberFormat; 69
+	GetCellNumberFormatText; 69
+	GetCustomNumericFormat; 69
+Methods – Cell Validations and Named Ranges; 70
+	AddNamedRange; 70
+	ClearCellValidation; 70
+	ClearNamedRange; 71
+	GetCellValidation; 71
+	GetValidation; 72
+	GetValidationList; 72
+	SetCellValidation; 73
+Methods – Set Sheet Formatting; 74
+	FreezePanes; 74
+	ResetColumnWidth; 74
+	SetColumnBestFit; 74
+	SetColumnWidth; 75
+	SetColumnWidthRange; 75
+	SetHeaderFooterSetup; 76
+	SetHeaderFooterText; 76
+	SetRowHeight; 77
+	SetRowHeightRange; 77
+	UnFreezePanes; 77
+Methods – Sheet Printer Setup; 78
+	GetCustomPaperSize; 78
+	GetPaperSize; 78
+	GetPrintOrientation; 78
+	GetSheetScale; 79
+	SetCustomPaperSize; 79
+	SetPaperSize; 80
+	SetPrintFitToHeight; 81
+	SetPrintFitToWidth; 81
+	SetPrintOrientation; 82
+	SetSheetMargins; 82
+	SetSheetScale; 82
+Methods – Direct VFP Table Support; 83
+	SaveGridToWorkbook; 83
+	SaveGridToWorkbookEx; 84
+	SaveTableToWorkbook; 84
+	SaveTableToWorkbookEx; 85
+Methods – Support; 86
+	ColumnAsciiToIndex; 86
+	ColumnIndexToAscii; 86
+	ConvertPixelsToExcelUnits; 86
+	ConvertRangeToColumnRowValues; 87
+	DebugOutput; 87
+	Demo; 87
+	GetImageDimensions; 88
+	GetImageRelationshipId; 88
+	ParseString; 88
+Entity Diagrams; 89
+	Sheet/Cell Data Schema; 89
+	Cell Formatting Schema; 89
+	Sheet Formatting Schema; 90
+	Validation Schema; 90
