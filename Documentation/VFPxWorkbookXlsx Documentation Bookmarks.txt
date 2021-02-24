@@ -1,0 +1,174 @@
+﻿Overview; 1
+Methods / Events / Properties Summary; 3
+Creating Workbook Files; 9
+Defined Numeric Formatting; 10
+Custom Defined Numeric Formatting; 11
+Cell Styles; 14
+SpreadSheet Headers/Footers; 14
+Properties; 17
+Events; 20
+Methods – Managing Workbooks; 22
+	CreateWorkbook; 22
+	DeleteAllWorkbooks; 22
+	DeleteWorkbook; 22
+	GetNumberOfSheets; 23
+	GetWorkbook; 23
+	GetWorkbookFileName; 23
+	OpenCreatedXlsxFile; 24
+	OpenXlsxWorkbook; 24
+	OpenXlsxWorkbookSheet; 24
+	SaveWorkbook; 25
+	SaveWorkbookAs; 25
+	SetWorkbookProtection; 25
+Methods – Managing Sheets; 26
+	AddAutoFilter; 26
+	AddColumnFilter; 26
+	AddGroupByColumn; 27
+	AddGroupByRow; 27
+	AddHyperLinkFile; 27
+	AddHyperLinkSheet; 28
+	AddImage; 28
+	AddSheet; 29
+	ClearAutoFilter; 29
+	DeleteImage; 30
+	DeleteHyperLink; 30
+	DeleteSheet; 30
+	GetColumnHidden; 31
+	GetColumnWidth; 31
+	GetDisplayGridLines; 31
+	GetLastColumnInRow; 32
+	GetLastRowNumber; 32
+	GetMaxColumnNumber; 32
+	GetRowMaxColumn; 33
+	GetSheetIndex; 33
+	GetSheetName; 33
+	GetSheetProtection; 34
+	GetWorkbookSheets; 34
+	InsertCell; 35
+	InsertColumn; 35
+	InsertRow; 36
+	RenameSheet; 36
+	SetDisplayGridLines; 36
+	SetSheetGroupSettings; 37
+	SetSheetProtection; 37
+	SetSheetVisibility; 37
+	SetTabColor; 38
+	UnGroupByColumn; 38
+	UnGroupByRow; 38
+Methods – Assigning Cell Values; 39
+	ClearCellValue; 39
+	SetCellFormula; 39
+	SetCellValue; 40
+Methods – Returning Cell Values; 41
+	GetCellDataType; 41
+	GetCellFormula; 41
+	GetCellValue; 41
+	GetSheetRowValues; 42
+	IsCellFormula; 42
+Methods – Style Formatting; 43
+	AddStyleBorders; 43
+	AddStyleFill; 44
+	AddStyleFont; 44
+	AddStyleHorizAlignment; 45
+	AddStyleIndent; 45
+	AddStyleNumericFormat; 45
+	AddStyleProtection; 46
+	AddStyleTextRotation; 47
+	AddStyleVertAlignment; 47
+	AddStyleWordWrap; 47
+	CreateFormatStyle; 48
+	CopyStyle; 48
+	GetCellStyle; 48
+	SetCellStyle; 48
+	SetCellStyleRange; 49
+Methods – Returning Cell Formatting; 50
+	GetCellAlignment; 50
+	GetCellBorders; 50
+	GetCellFill; 51
+	GetCellFont; 52
+	GetCellIndent; 52
+	GetCellTextRotation; 53
+	GetCellWordWrap; 53
+Methods – Assigning Cell Formatting; 54
+	AddIndexColor; 54
+	AddMruColor; 54
+	CellFormatPainter; 54
+	MergeCells; 55
+	SetCellAlignment; 55
+	SetCellBorder; 56
+	SetCellBorderEx; 57
+	SetCellBorderRange; 58
+	SetCellFill; 59
+	SetCellFillRange; 59
+	SetCellFont; 60
+	SetCellFontRange; 61
+	SetCellIndent; 61
+	SetCellNumberDecimals; 62
+	SetCellNumberFormat; 62
+	SetCellNumberFormatRange; 63
+	SetCellTextRotation; 64
+	SetCellWordWrap; 64
+	SetCellWordWrapRange; 65
+	UnMergedCells; 65
+Methods – In-Line Text Formatting; 66
+	AddInLineFontObject; 66
+	CreateInLineFormatText; 67
+	GetInLineFormatText; 67
+	SetCellInLineFormatText; 68
+Methods – Numeric Cell Formats; 69
+	AddCustomNumericFormat; 69
+	AddNumericFormat; 69
+	GetCellNumberFormat; 70
+	GetCellNumberFormatText; 70
+	GetCustomNumericFormat; 70
+Methods – Cell Validations and Named Ranges; 71
+	AddNamedRange; 71
+	ClearCellValidation; 71
+	ClearNamedRange; 72
+	GetCellValidation; 72
+	GetValidation; 73
+	GetValidationList; 73
+	SetCellValidation; 74
+Methods – Set Sheet Formatting; 75
+	FreezePanes; 75
+	ResetColumnWidth; 75
+	SetColumnBestFit; 75
+	SetColumnWidth; 76
+	SetColumnWidthRange; 76
+	SetHeaderFooterSetup; 77
+	SetHeaderFooterText; 77
+	SetRowHeight; 78
+	SetRowHeightRange; 78
+	UnFreezePanes; 78
+Methods – Sheet Printer Setup; 79
+	GetCustomPaperSize; 79
+	GetPaperSize; 79
+	GetPrintOrientation; 79
+	GetSheetScale; 80
+	SetCustomPaperSize; 80
+	SetPaperSize; 81
+	SetPrintFitToHeight; 82
+	SetPrintFitToWidth; 82
+	SetPrintOrientation; 83
+	SetSheetMargins; 83
+	SetSheetScale; 83
+Methods – Direct VFP Table Support; 84
+	SaveGridToWorkbook; 84
+	SaveGridToWorkbookEx; 85
+	SaveTableToWorkbook; 85
+	SaveTableToWorkbookEx; 86
+Methods – Support; 87
+	ColumnAsciiToIndex; 87
+	ColumnIndexToAscii; 87
+	ConvertPixelsToExcelUnits; 87
+	ConvertRangeToColumnRowValues; 88
+	DebugOutput; 88
+	Demo; 88
+	GetImageDimensions; 89
+	GetImageRelationshipId; 89
+	ParseString; 89
+Entity Diagrams; 90
+	Sheet/Cell Data Schema; 90
+	Cell Formatting Schema; 90
+	Sheet Formatting Schema; 91
+	Validation Schema; 91
